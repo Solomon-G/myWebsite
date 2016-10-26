@@ -1,0 +1,109 @@
+*, html, body {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+.page-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page-container header h1 {
+  text-align: center;
+  color:white;
+  font-size: 70px;
+  font-family: sans-serif;
+
+}
+
+header {
+  height: 20em;
+  background: linear-gradient(to bottom right, rgba(33, 33, 33, .6), rgba(33, 33, 33, .6)), url(./city.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+main h1 {
+  color:white;
+  padding-left:1em;
+  text-align:center;
+  border-style: solid;
+  width:15em;
+  margin-left: 12em;
+  display: inline-block;
+  border-width: thin;
+  border-radius: 3em;
+  font-family:serif;
+  text-transform: uppercase;
+  margin-top: 2em;
+
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  padding: 1em  .5em;
+  background: #858585;
+  border-right: 0.1em;
+  background-attachment:fixed;
+  background-color: #EBEFEF;
+
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  padding:0em 0em;
+  margin:0;
+  display:inline-block;
+  padding-right: 1em;
+  text-decoration: none;
+  color:black;
+  border-right: 1em;
+  padding-right: 5em;
+}
+
+nav a:hover {
+  color:#EB2672;
+  border-right: 0.1em;
+}
+
+main {
+  background-color:#C9C9C9;
+  background-image: url(./Camera.jpg);
+  background-repeat: round;
+  /*background-attachment:fixed;*/
+}
+
+
+main img {
+  margin: 0.5em 0em 0em 0em;
+  width: 20em;
+  height:18em
+}
+
+main p {
+font-family:sans-serif;
+line-height: normal;
+letter-spacing: 0.001em;
+color:white;
+margin-left: 2em;
+color: #4C141F;
+}
